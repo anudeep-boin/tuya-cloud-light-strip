@@ -1,4 +1,4 @@
-# tuya-cloud-smart-bulb
+# tuya-cloud-light-strip
 This project is developed using Tuya SDK, which enables you to quickly    develop smart devices, branded APP, cloud development project, etc.
 
 For more information, please check Tuya Developer Click and Connect      Challenge: https://pages.tuya.com/develop/ClickAndConnect_TuyaDeveloper?_source=e9684c7ca6b31e7221c8420f5af94631 
@@ -35,6 +35,9 @@ bulb.set_colour_v2(rgb=(0, 255, 0))
 
 # Turn off the light bulb after 5 minutes
 bulb.set_toggle_timer(value=5)
+
+
+#rest of the functions can be seen from hte below list, their progrms are present in the folderlight strip control.
 ```
 
 
@@ -43,12 +46,10 @@ bulb.set_toggle_timer(value=5)
 1)Make an account here: <a href="https://iot.tuya.com/">New Account</a><br />
 2)Go to cloud development, and make a project.<a href="https://iot.tuya.com/cloud/">Cloud->Project</a><br />
 3)Fill the details asked and make the project.<br />
-4)You can see the new project as the below image.<br />
-<img src="https://user-images.githubusercontent.com/62068859/123901442-909e3880-d988-11eb-98a2-593d376baef6.png">
+4)Goto devices and turn on your device.
 <br>
 
-5)Add a device, I am using a smart bulb with WIFI.<br />
-<img src="https://user-images.githubusercontent.com/62068859/123899898-b413b400-d985-11eb-9918-34f6db60de03.png">
+5)Add a device, I am using alight strip.<br />
 
 <br>
 6)Save all the details like client id,client secret key, device id, to be used in the project. Dont share these to others.
@@ -73,18 +74,9 @@ functions<br>
 toggle<br>
 toggle_timer<br>
 <br>
-<h4>More Info:</h4>
-All the details of the device can be found here using device id, for all differen controls and function.
-<br>
-<br>
-<img src="https://user-images.githubusercontent.com/62068859/123900800-613afc00-d987-11eb-8e5a-d8e2b552289d.png">
-<br>
-You can control device from the below pic by sending data to the id, if success then it is executed.
-<br>
-<br>
-<img src="https://user-images.githubusercontent.com/62068859/123900902-95aeb800-d987-11eb-8f9c-7504ed077256.png">
-<br>
+
 <h3>Note:</h3>
+The functions vary based on the light selected, so make changes accordingly.
 Tutorial videos can be seen in youtube for sample ones to connect.<br>
 Even i will upload a video soon to show the demo.
 
